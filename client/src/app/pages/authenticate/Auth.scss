@@ -1,0 +1,71 @@
+.authentication__header {
+  color: white;
+  text-align: center;
+}
+
+.card {
+  position: relative;
+  margin: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow: hidden;
+  background: #222526;
+}
+.authentication {
+  width: 90%;
+  max-width: 25rem;
+  margin: 5rem auto;
+  text-align: center;
+
+  color: #b4aea4;
+  h2 {
+  }
+
+  form {
+    margin-bottom: 1rem;
+  }
+}
+
+.button {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #e22bba;
+  border-radius: 4px;
+  background: #e22bba;
+  color: white;
+  cursor: pointer;
+  margin-right: 1rem;
+  text-decoration: none;
+  display: inline-block;
+
+  .button--inverse {
+    background: transparent;
+    color: #e22bba;
+
+    &:hover,
+    &:active {
+      color: white;
+      background: #e22bba;
+    }
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover,
+  &:active {
+    background: #ff4382;
+    border-color: #ff4382;
+  }
+
+  &:disabled,
+  &:hover:disabled,
+  &:active:disabled {
+    background: #ccc;
+    color: #979797;
+    border-color: #ccc;
+    cursor: not-allowed;
+  }
+}

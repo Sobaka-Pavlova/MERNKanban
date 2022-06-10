@@ -1,0 +1,10 @@
+.board-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 0 0.5rem;
+  min-height: 10rem;
+  overflow-y: auto;
+}

@@ -1,0 +1,38 @@
+.form-control {
+  margin: 1rem 0;
+
+  label,
+  input {
+    display: block;
+  }
+
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  input {
+    width: 100%;
+    font: inherit;
+    border: 1px solid #ccc;
+    background-color: #181a1b;
+    padding: 0.15rem 0.25rem;
+    color: white;
+
+    &:focus {
+      outline: none;
+      border-color: #e22bba;
+    }
+  }
+}
+
+.form-control--invalid {
+  label,
+  p {
+    color: red;
+  }
+
+  input {
+    border-color: red;
+  }
+}
