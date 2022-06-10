@@ -87,5 +87,5 @@ cd ..
 - If you run into issues: 
   - run `docker ps -a` to confirm that all containers are up 
   - Check NGINX logs in the frontend container:
-    - Use `docker exec -it MERNKanban_frontend_1` to drop into the container
+    - Use `docker exec -it mernkanban-frontend-1 bash` to drop into the container
     - Navigate to `/var/log/nginx` for access and error logs
